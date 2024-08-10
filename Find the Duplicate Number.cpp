@@ -7,6 +7,8 @@ private:
             if(num <= value){
                 count++;
             }
+            //array = [1, 2, 3 , 4, 5] ,  it means no of unique values must(1,2,3,4,5) <= 5, if count > mid we reduce right = mid - 1; 
+            // if no of uniquem values <= 5, so the 5 is already in the count(we have 5 as count) , so 5 is not the duplicate
         }
         return count;
         // return count;
